@@ -10,7 +10,7 @@ test('sums array elements when array is empty', () => {
     expect(sum(arr)).toBe(0);
 });
 
-test('returns null if array is larger than 5', () => {
+test('returns null if the array is larger than 5', () => {
     let arr = [1,1,1,1,1,1];
-    expect(sum(arr)).toBe(null);
+    expect(sum(arr)).toBeNull();
 });

@@ -4,8 +4,8 @@ function palindromesChecker(word) {
     let cleanString = word.replace(/ /g, "");    
 
     // ends executions if the String is too short
-    if (cleanString.length < 2) {
-        return false;
+    if (cleanString.length < 2 || cleanString.length > 10000) {
+        return null;
     }
 
     let wordLength = cleanString.length;
@@ -28,3 +28,4 @@ function palindromesChecker(word) {
     }
     return true;
 }
+module.exports = palindromesChecker;

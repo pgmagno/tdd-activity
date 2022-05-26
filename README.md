@@ -16,6 +16,6 @@ Test Driven Development activity from the Software Engineering course at UNDB - 
 >* Check if a given string of size N is or isn't a palindrome.
 ### #2 - Create as many tests as the group deems necessary to assert the correctness and precision of the solutions developed. 
 
-#### Technologies used to solve the problems:
+## Technologies used to solve the problems:
 
 In order to write the algorithms, we used **Javascript** and, to test them, we used **Jest**.

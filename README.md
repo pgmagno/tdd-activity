@@ -4,9 +4,18 @@ Test Driven Development activity from the Software Engineering course at UNDB - 
 
 ## The Team
 
-[<img width="90" height="90" src="https://github.com/pgmagno.png" caption="Paulo Magno">](https://github.com/pgmagno)
-[<img width="90" height="90" src="https://github.com/paulojoseph.png" caption="Paulo José Marques">](https://github.com/paulojoseph)
-[<img width="90" height="90" src="https://github.com/yuriageme.png" caption="Yuri Ageme">](https://github.com/yuriageme)
+<table>
+  <tr>
+    <th> <a target="_blank" href="https://github.com/pgmagno"><img width="90" height="90" src="https://github.com/pgmagno.png"></a></th>
+    <th> <a target="_blank" href="https://github.com/paulojoseph"><img width="90" height="90" src="https://github.com/paulojoseph.png"></a></th>
+    <th> <a target="_blank" href="https://github.com/yuriageme"><img width="90" height="90" src="https://github.com/yuriageme.png"></a></th>
+  </tr>
+    <tr>
+      <td><a target="_blank" href="https://github.com/pgmagno">Paulo Magno</a></td>
+      <td><a target="_blank" href="https://github.com/paulojoseph">Paulo José</a></td>
+      <td><a target="_blank" href="https://github.com/yuriageme">Yuri Ageme</a></td>      
+  </tr>
+  </table>
 
 ## The activity consists of two steps:
 ### #1 - Implement algorithms to solve the problems below:

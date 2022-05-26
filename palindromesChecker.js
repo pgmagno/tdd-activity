@@ -4,7 +4,7 @@ function palindromesChecker(word) {
     let cleanString = word.replace(/ /g, "");    
 
     // ends executions if the String is too short
-    if (cleanString.length < 2 || cleanString.length > 10000) {
+    if (cleanString.length < 2 || cleanString.length > 1000) {
         return null;
     }
 

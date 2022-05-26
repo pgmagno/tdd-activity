@@ -20,15 +20,35 @@ test("when passed a String with fewer than 2 characters, return null", () => {
     expect(pChecker(str)).toBeNull();
 });
 
-// test("when passed a String with more than 1000 characters, return null", () => {
-//     let str = "123456";
-//     expect(pChecker(str)).toBeNull();
-// });
+test("when passed a String with more than 1000 characters, return null", () => {
+    
+    let str = "";
+    
+    while(str.length != 1001) {
+        str += "A";
+    }
+    expect(pChecker(str)).toBeNull();
+});
 
-// test("when passed a String with 999 characters or fewer, return true or false, but not null", () => {
-//     let str = "123456";
-//     expect(pChecker(str)).not.toBeNull();
-// });
+test("when passed a String with more than 1000 characters, return true", () => {
+    
+    let str = "";
+    
+    while(str.length != 1000) {
+        str += "A";
+    }
+    expect(pChecker(str)).toBe(true);
+});
+
+test("when passed a String with more than 999 characters, return true", () => {
+    
+    let str = "";
+    
+    while(str.length != 999) {
+        str += "A";
+    }
+    expect(pChecker(str)).toBe(true);
+});
 
 test("handling of Odd-numbered known palindromes", () => {
     let str = "1234321";

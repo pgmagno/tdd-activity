@@ -1,6 +1,6 @@
 # Test Driven Development ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E) ![Jest](https://img.shields.io/badge/-jest-%23C21325?style=for-the-badge&logo=jest&logoColor=white)
 
-Test Driven Development activity from the Software Engineering course at UNDB - Centro Universitário Dom Bosco. The assignment represents 20% of the second grade and is to be carried out in groups of three.
+Test Driven Development activity from the Software Engineering course, part of the Systems Analysis & Development program, at UNDB - Centro Universitário Dom Bosco. The assignment represents 20% of the second grade and is to be carried out in groups of three.
 
 ## The Team
 

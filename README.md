@@ -1,6 +1,5 @@
 # Test Driven Development ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E) ![Jest](https://img.shields.io/badge/-jest-%23C21325?style=for-the-badge&logo=jest&logoColor=white)
 
-
 Test Driven Development activity from the Software Engineering course at UNDB - Centro Universitário Dom Bosco. The assignment represents 20% of the second grade and is to be carried out in groups of three.
 
 ## The Team
@@ -16,6 +15,6 @@ Test Driven Development activity from the Software Engineering course at UNDB - 
 >* Check if a given string of size N is or isn't a palindrome.
 ### #2 - Create as many tests as the group deems necessary to assert the correctness and precision of the solutions developed. 
 
-#### Technologies used to solve the problems:
+## Technologies used:
 
 In order to write the algorithms, we used **Javascript** and, to test them, we used **Jest**.

@@ -17,4 +17,4 @@ Test Driven Development activity from the Software Engineering course taught by 
 
 ## Technologies used:
 
-In order to write the algorithms, we used ***JavaScript***; to test them, we used ***Jest***.
+In order to write the algorithms, we used `JavaScript`; to test them, we used `Jest`.

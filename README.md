@@ -10,9 +10,9 @@ Test Driven Development activity from the Software Engineering course taught by 
 
 ## The activity consists of two steps:
 ### #1 - Implement algorithms to solve the problems below:
->* Given an array of size N, return the sum of all elements;
->* Given a square matrix of size N, sum the values from each diagonal and return the absolute value of their substraction;
->* Check if a given string of size N is or isn't a palindrome.
+>* Given an array of size ***N***, return the sum of all elements, for 0 < ***N*** <= 1000;
+>* Given a square matrix of size ***N***, sum the values from each diagonal and return the absolute value of their substraction, for 2 <= ***N*** <= 1000 and each element being an integer -100 < ***m[i][j]*** <= 100;
+>* Given string of size ***N***, check if it is or isn't a palindrome, for 0 < ***N*** <= 1000;
 ### #2 - Create as many tests as the group deems necessary to assert the correctness and precision of the solutions developed. 
 
 ## Technologies used:

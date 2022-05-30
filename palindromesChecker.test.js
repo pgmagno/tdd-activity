@@ -1,36 +1,40 @@
 const pChecker = require("./palindromesChecker");
 
-test("when passed known non-palindrome return false", () => {
+test("returns FALSE when passed known non-palindrome", () => {
     let str = "ABAB";
     expect(pChecker(str)).toBe(false);
 });
 
-test("when passed known palindrome return true", () => {
+test("returns TRUE when passed known palindrome", () => {
     let str = "ABBA";
     expect(pChecker(str)).toBe(true);
 });
 
-test("handling of spaces in palindrome", () => {
+test("returns TRUE when passed known palindrome with spaces", () => {
     let str = "1234 4 3 2 1";
     expect(pChecker(str)).toBe(true);
 });
 
-test("when passed a String with fewer than 2 characters, return null", () => {
+test("returns TRUE when passed a one-character word", () => {
     let str = "A";
-    expect(pChecker(str)).toBeNull();
+    expect(pChecker(str)).toBe(true);
 });
 
-test("when passed a String with more than 1000 characters, return null", () => {
-    
+test("returns TRUE when passed an empty string", () => {
     let str = "";
+    expect(pChecker(str)).toBe(true);
+});
+
+test("returns NULL when passed a String with more than 1000 characters", () => {
     
+    let str = "";    
     while(str.length != 1001) {
         str += "A";
     }
     expect(pChecker(str)).toBeNull();
 });
 
-test("when passed a String with more than 1000 characters, return true", () => {
+test("returns TRUE when passed a palindrome of a 1000 'A' characters", () => {
     
     let str = "";
     
@@ -40,17 +44,7 @@ test("when passed a String with more than 1000 characters, return true", () => {
     expect(pChecker(str)).toBe(true);
 });
 
-test("when passed a String with more than 999 characters, return true", () => {
-    
-    let str = "";
-    
-    while(str.length != 999) {
-        str += "A";
-    }
-    expect(pChecker(str)).toBe(true);
-});
-
-test("handling of Odd-numbered known palindromes", () => {
+test("returns TRUE when passed Odd-numbered known palindromes", () => {
     let str = "1234321";
     expect(pChecker(str)).toBe(true);
 });

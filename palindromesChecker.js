@@ -4,8 +4,14 @@ function palindromesChecker(word) {
     let cleanString = word.replace(/ /g, "");    
 
     // ends executions if the String is too short
-    if (cleanString.length < 2 || cleanString.length > 1000) {
+    if (cleanString.length > 1000) {
         return null;
+    }
+
+    // all empty strings and one-character words fit the definition of palindromes
+    // so it's unnecessary to proceed execution, result always TRUE
+    if (cleanString.length == 1 || cleanString.length == 0) {
+        return true;
     }
 
     let wordLength = cleanString.length;

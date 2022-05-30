@@ -1,6 +1,6 @@
 function sumOfArrayElements(arr) {
 
-    if(arr.length > 5) {
+    if(arr.length < 1 || arr.length > 1000) {
         return null;
     }
 

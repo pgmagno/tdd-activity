@@ -38,7 +38,7 @@ Atividade de Desenvolvimento orientado a testes da disciplina de Software Engine
 
 ### A atividade consiste na realização de duas etapas:
 #### #1 - Implementar algoritmos que solucionem os problemas abaixo:
->* Dada uma lista de tamanho ***n***, returne a soma de todos os seus elementos, sendo `0 < n <= 1000`;
+>* Dada uma lista de tamanho ***n***, retorne a soma de todos os seus elementos, sendo `0 < n <= 1000`;
 >* Dada uma matriz quadrada de tamahno ***n***, some os valores de suas diagonais e retorne a diferença, em módulo, desses valores, sendo `2 <= n <= 1000` e cada elemento sendo um inteiro ***m*** `-100 < m[i][j] <= 100`;
 >* Dada uma string de tamanho ***n***, determine se corresponde a um palíndromo, sendo `0 < n <= 1000`;
 #### #2 - Criar a maior quantidade de testes que o grupo julgue necessário a fim de maximizar a precisão das soluções desenvolvidas. 
